@@ -1,0 +1,41 @@
+/* #kikote_shipping.postbox .inside {
+  display: flex;
+  text-align: center;
+} */
+
+#kikote_shipping.postbox .inside .select2-container {
+  margin: 10px 0;
+}
+
+#kikote_map_display label,
+#kikote_shipping label {
+  display: block;
+}
+
+#kikote_map_display .grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(120px, 1fr));
+  grid-gap: 10px;
+  margin-bottom: 10px;
+}
+
+#kikote_map_display .grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(120px, 1fr));
+  grid-gap: 10px;
+  margin-bottom: 10px;
+}
+
+#kikote_shipping .grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(120px, 1fr));
+  grid-gap: 10px;
+  margin-bottom: 10px;
+}
+
+#kikote_shipping #shipping-settings {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(120px, 1fr));
+  grid-gap: 10px;
+  margin-bottom: 10px;
+}

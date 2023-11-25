@@ -1,0 +1,1 @@
+!function(){var o;(o=jQuery)((function(){o("#lpac_export_btn").on("click",(function(t){t.preventDefault(),function(o,t){var n={from:o,to:t};wp.ajax.post("lpac_export_order_records",{dateRange:n}).done((function(o){window.location.href=o})).fail((function(o){alert(o)}))}(o("#lpac_export_date_from").val(),o("#lpac_export_date_to").val())}))}))}();

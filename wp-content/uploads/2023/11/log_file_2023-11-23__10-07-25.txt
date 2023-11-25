@@ -1,0 +1,71 @@
+
+---Downloaded files---
+The import files for: Cosmetics were successfully downloaded!
+Initial max execution time = 36000
+Files info:
+Site URL = http://lemurecomsmetic.test
+Data file = C:\laragon\www\lemurecomsmetic/wp-content/uploads/2023/11/demo-content-import-file_2023-11-23__10-07-25.xml
+Widget file = C:\laragon\www\lemurecomsmetic/wp-content/uploads/2023/11/demo-widgets-import-file_2023-11-23__10-07-25.json
+Customizer file = not defined!
+Redux files:
+loobek_theme_options -> C:\laragon\www\lemurecomsmetic/wp-content/uploads/2023/11/demo-redux-import-file_0-2023-11-23__10-07-25.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---ocdi/before_widgets_import---
+
+
+---Importing widgets---
+Blog Detail Sidebar : 
+
+Categories - No Title - Imported
+TS - Blogs - Recent Posts - Imported
+TS - Recent Comments - Recent Comments - Imported
+Tag Cloud - Tags - Imported
+Archives - Archives - Imported
+
+Product Category Sidebar : 
+
+Active Product Filters - Active filters - Imported
+TS - Product Categories - No Title - Imported
+TS - Product Filter By Color - Colors - Imported
+Filter Products by Attribute - Sizes - Imported
+TS - Product Filter By Brand - Brands - Imported
+TS - Product Filter By Price - Price - Imported
+Filter Products by Rating - Ratings - Imported
+
+Filter Widget Area : 
+
+TS - Product Categories - Categories - Imported
+TS - Product Filter By Color - Colors - Imported
+Filter Products by Attribute - Sizes - Imported
+TS - Product Filter By Brand - Brands - Imported
+TS - Product Filter By Price - Price - Imported
+Filter Products by Rating - Ratings - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: loobek_theme_options finished successfully!
+
+---ocdi/after_import---
+

@@ -1,0 +1,1195 @@
+[2023-11-23 16:02:19] Array
+(
+    [0] => request
+    [1] => webhooks
+    [2] => GET
+    [3] => Array
+        (
+            [timeout] => 60
+            [method] => GET
+            [headers] => Array
+                (
+                    [Authorization] => Bearer sk_72aeca13-a21d-4964-8dee-ef3f789b1d39
+                    [X-Merchant-Code] => BH
+                )
+
+        )
+
+)
+[2023-11-23 16:02:20] Array
+(
+    [0] => response
+    [1] => Array
+        (
+            [headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                (
+                    [data:protected] => Array
+                        (
+                            [date] => Thu, 23 Nov 2023 16:02:20 GMT
+                            [content-type] => application/json
+                            [content-length] => 48
+                            [vary] => Origin
+                            [x-current-time] => 1700755340
+                            [strict-transport-security] => max-age=31536000; includeSubDomains
+                            [x-content-type-options] => nosniff
+                            [x-xss-protection] => 1; mode=block
+                            [referrer-policy] => no-referrer-when-downgrade
+                            [cf-cache-status] => DYNAMIC
+                            [set-cookie] => _cfuvid=6LHFzjZVuLTualsQ4MUQCIOE6I8DGZP4hO30d6_h7z4-1700755340257-0-604800000; path=/; domain=.tabby.ai; HttpOnly; Secure; SameSite=None
+                            [server] => cloudflare
+                            [cf-ray] => 82aaa2cbaac40e6a-MXP
+                            [alt-svc] => h3=":443"; ma=86400
+                        )
+
+                )
+
+            [body] => {"status":"error","errorType":"not_authorized"}
+
+            [response] => Array
+                (
+                    [code] => 401
+                    [message] => Unauthorized
+                )
+
+            [cookies] => Array
+                (
+                    [0] => WP_Http_Cookie Object
+                        (
+                            [name] => _cfuvid
+                            [value] => 6LHFzjZVuLTualsQ4MUQCIOE6I8DGZP4hO30d6_h7z4-1700755340257-0-604800000
+                            [expires] => 
+                            [path] => /
+                            [domain] => tabby.ai
+                            [port] => 
+                            [host_only] => 
+                        )
+
+                )
+
+            [filename] => 
+            [http_response] => WP_HTTP_Requests_Response Object
+                (
+                    [data] => 
+                    [headers] => 
+                    [status] => 
+                    [response:protected] => WpOrg\Requests\Response Object
+                        (
+                            [body] => {"status":"error","errorType":"not_authorized"}
+
+                            [raw] => HTTP/1.1 401 Unauthorized
+Date: Thu, 23 Nov 2023 16:02:20 GMT
+Content-Type: application/json
+Content-Length: 48
+Connection: close
+vary: Origin
+x-current-time: 1700755340
+strict-transport-security: max-age=31536000; includeSubDomains
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+referrer-policy: no-referrer-when-downgrade
+CF-Cache-Status: DYNAMIC
+Set-Cookie: _cfuvid=6LHFzjZVuLTualsQ4MUQCIOE6I8DGZP4hO30d6_h7z4-1700755340257-0-604800000; path=/; domain=.tabby.ai; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+CF-RAY: 82aaa2cbaac40e6a-MXP
+alt-svc: h3=":443"; ma=86400
+
+{"status":"error","errorType":"not_authorized"}
+
+                            [headers] => WpOrg\Requests\Response\Headers Object
+                                (
+                                    [data:protected] => Array
+                                        (
+                                            [date] => Array
+                                                (
+                                                    [0] => Thu, 23 Nov 2023 16:02:20 GMT
+                                                )
+
+                                            [content-type] => Array
+                                                (
+                                                    [0] => application/json
+                                                )
+
+                                            [content-length] => Array
+                                                (
+                                                    [0] => 48
+                                                )
+
+                                            [vary] => Array
+                                                (
+                                                    [0] => Origin
+                                                )
+
+                                            [x-current-time] => Array
+                                                (
+                                                    [0] => 1700755340
+                                                )
+
+                                            [strict-transport-security] => Array
+                                                (
+                                                    [0] => max-age=31536000; includeSubDomains
+                                                )
+
+                                            [x-content-type-options] => Array
+                                                (
+                                                    [0] => nosniff
+                                                )
+
+                                            [x-xss-protection] => Array
+                                                (
+                                                    [0] => 1; mode=block
+                                                )
+
+                                            [referrer-policy] => Array
+                                                (
+                                                    [0] => no-referrer-when-downgrade
+                                                )
+
+                                            [cf-cache-status] => Array
+                                                (
+                                                    [0] => DYNAMIC
+                                                )
+
+                                            [set-cookie] => Array
+                                                (
+                                                    [0] => _cfuvid=6LHFzjZVuLTualsQ4MUQCIOE6I8DGZP4hO30d6_h7z4-1700755340257-0-604800000; path=/; domain=.tabby.ai; HttpOnly; Secure; SameSite=None
+                                                )
+
+                                            [server] => Array
+                                                (
+                                                    [0] => cloudflare
+                                                )
+
+                                            [cf-ray] => Array
+                                                (
+                                                    [0] => 82aaa2cbaac40e6a-MXP
+                                                )
+
+                                            [alt-svc] => Array
+                                                (
+                                                    [0] => h3=":443"; ma=86400
+                                                )
+
+                                        )
+
+                                )
+
+                            [status_code] => 401
+                            [protocol_version] => 1.1
+                            [success] => 
+                            [redirects] => 0
+                            [url] => https://api.tabby.ai/api/v1/webhooks
+                            [history] => Array
+                                (
+                                )
+
+                            [cookies] => WpOrg\Requests\Cookie\Jar Object
+                                (
+                                    [cookies:protected] => Array
+                                        (
+                                            [_cfuvid] => WpOrg\Requests\Cookie Object
+                                                (
+                                                    [name] => _cfuvid
+                                                    [value] => 6LHFzjZVuLTualsQ4MUQCIOE6I8DGZP4hO30d6_h7z4-1700755340257-0-604800000
+                                                    [attributes] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                                                        (
+                                                            [data:protected] => Array
+                                                                (
+                                                                    [path] => /
+                                                                    [domain] => tabby.ai
+                                                                    [httponly] => 1
+                                                                    [secure] => 1
+                                                                    [samesite] => None
+                                                                )
+
+                                                        )
+
+                                                    [flags] => Array
+                                                        (
+                                                            [creation] => 1700755340
+                                                            [last-access] => 1700755340
+                                                            [persistent] => 
+                                                            [host-only] => 
+                                                        )
+
+                                                    [reference_time] => 1700755340
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [filename:protected] => 
+                )
+
+        )
+
+)
+[2023-11-23 16:02:20] Array
+(
+    [0] => response - body - 
+    [1] => Array
+        (
+            [status] => error
+            [errorType] => not_authorized
+            [error] => 
+        )
+
+)
+[2023-11-23 16:02:21] Array
+(
+    [0] => request
+    [1] => webhooks
+    [2] => GET
+    [3] => Array
+        (
+            [timeout] => 60
+            [method] => GET
+            [headers] => Array
+                (
+                    [Authorization] => Bearer sk_72aeca13-a21d-4964-8dee-ef3f789b1d39
+                    [X-Merchant-Code] => KW
+                )
+
+        )
+
+)
+[2023-11-23 16:02:22] Array
+(
+    [0] => response
+    [1] => Array
+        (
+            [headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                (
+                    [data:protected] => Array
+                        (
+                            [date] => Thu, 23 Nov 2023 16:02:21 GMT
+                            [content-type] => application/json
+                            [content-length] => 48
+                            [vary] => Origin
+                            [x-current-time] => 1700755341
+                            [strict-transport-security] => max-age=31536000; includeSubDomains
+                            [x-content-type-options] => nosniff
+                            [x-xss-protection] => 1; mode=block
+                            [referrer-policy] => no-referrer-when-downgrade
+                            [cf-cache-status] => DYNAMIC
+                            [set-cookie] => _cfuvid=gX4oSojj8m95F53UgsHGcYqaFnB0Mq.p3fq3HyjOnLA-1700755341802-0-604800000; path=/; domain=.tabby.ai; HttpOnly; Secure; SameSite=None
+                            [server] => cloudflare
+                            [cf-ray] => 82aaa2d55a4bbab8-MXP
+                            [alt-svc] => h3=":443"; ma=86400
+                        )
+
+                )
+
+            [body] => {"status":"error","errorType":"not_authorized"}
+
+            [response] => Array
+                (
+                    [code] => 401
+                    [message] => Unauthorized
+                )
+
+            [cookies] => Array
+                (
+                    [0] => WP_Http_Cookie Object
+                        (
+                            [name] => _cfuvid
+                            [value] => gX4oSojj8m95F53UgsHGcYqaFnB0Mq.p3fq3HyjOnLA-1700755341802-0-604800000
+                            [expires] => 
+                            [path] => /
+                            [domain] => tabby.ai
+                            [port] => 
+                            [host_only] => 
+                        )
+
+                )
+
+            [filename] => 
+            [http_response] => WP_HTTP_Requests_Response Object
+                (
+                    [data] => 
+                    [headers] => 
+                    [status] => 
+                    [response:protected] => WpOrg\Requests\Response Object
+                        (
+                            [body] => {"status":"error","errorType":"not_authorized"}
+
+                            [raw] => HTTP/1.1 401 Unauthorized
+Date: Thu, 23 Nov 2023 16:02:21 GMT
+Content-Type: application/json
+Content-Length: 48
+Connection: close
+vary: Origin
+x-current-time: 1700755341
+strict-transport-security: max-age=31536000; includeSubDomains
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+referrer-policy: no-referrer-when-downgrade
+CF-Cache-Status: DYNAMIC
+Set-Cookie: _cfuvid=gX4oSojj8m95F53UgsHGcYqaFnB0Mq.p3fq3HyjOnLA-1700755341802-0-604800000; path=/; domain=.tabby.ai; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+CF-RAY: 82aaa2d55a4bbab8-MXP
+alt-svc: h3=":443"; ma=86400
+
+{"status":"error","errorType":"not_authorized"}
+
+                            [headers] => WpOrg\Requests\Response\Headers Object
+                                (
+                                    [data:protected] => Array
+                                        (
+                                            [date] => Array
+                                                (
+                                                    [0] => Thu, 23 Nov 2023 16:02:21 GMT
+                                                )
+
+                                            [content-type] => Array
+                                                (
+                                                    [0] => application/json
+                                                )
+
+                                            [content-length] => Array
+                                                (
+                                                    [0] => 48
+                                                )
+
+                                            [vary] => Array
+                                                (
+                                                    [0] => Origin
+                                                )
+
+                                            [x-current-time] => Array
+                                                (
+                                                    [0] => 1700755341
+                                                )
+
+                                            [strict-transport-security] => Array
+                                                (
+                                                    [0] => max-age=31536000; includeSubDomains
+                                                )
+
+                                            [x-content-type-options] => Array
+                                                (
+                                                    [0] => nosniff
+                                                )
+
+                                            [x-xss-protection] => Array
+                                                (
+                                                    [0] => 1; mode=block
+                                                )
+
+                                            [referrer-policy] => Array
+                                                (
+                                                    [0] => no-referrer-when-downgrade
+                                                )
+
+                                            [cf-cache-status] => Array
+                                                (
+                                                    [0] => DYNAMIC
+                                                )
+
+                                            [set-cookie] => Array
+                                                (
+                                                    [0] => _cfuvid=gX4oSojj8m95F53UgsHGcYqaFnB0Mq.p3fq3HyjOnLA-1700755341802-0-604800000; path=/; domain=.tabby.ai; HttpOnly; Secure; SameSite=None
+                                                )
+
+                                            [server] => Array
+                                                (
+                                                    [0] => cloudflare
+                                                )
+
+                                            [cf-ray] => Array
+                                                (
+                                                    [0] => 82aaa2d55a4bbab8-MXP
+                                                )
+
+                                            [alt-svc] => Array
+                                                (
+                                                    [0] => h3=":443"; ma=86400
+                                                )
+
+                                        )
+
+                                )
+
+                            [status_code] => 401
+                            [protocol_version] => 1.1
+                            [success] => 
+                            [redirects] => 0
+                            [url] => https://api.tabby.ai/api/v1/webhooks
+                            [history] => Array
+                                (
+                                )
+
+                            [cookies] => WpOrg\Requests\Cookie\Jar Object
+                                (
+                                    [cookies:protected] => Array
+                                        (
+                                            [_cfuvid] => WpOrg\Requests\Cookie Object
+                                                (
+                                                    [name] => _cfuvid
+                                                    [value] => gX4oSojj8m95F53UgsHGcYqaFnB0Mq.p3fq3HyjOnLA-1700755341802-0-604800000
+                                                    [attributes] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                                                        (
+                                                            [data:protected] => Array
+                                                                (
+                                                                    [path] => /
+                                                                    [domain] => tabby.ai
+                                                                    [httponly] => 1
+                                                                    [secure] => 1
+                                                                    [samesite] => None
+                                                                )
+
+                                                        )
+
+                                                    [flags] => Array
+                                                        (
+                                                            [creation] => 1700755341
+                                                            [last-access] => 1700755341
+                                                            [persistent] => 
+                                                            [host-only] => 
+                                                        )
+
+                                                    [reference_time] => 1700755341
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [filename:protected] => 
+                )
+
+        )
+
+)
+[2023-11-23 16:02:22] Array
+(
+    [0] => response - body - 
+    [1] => Array
+        (
+            [status] => error
+            [errorType] => not_authorized
+            [error] => 
+        )
+
+)
+[2023-11-23 16:02:22] Array
+(
+    [0] => request
+    [1] => webhooks
+    [2] => GET
+    [3] => Array
+        (
+            [timeout] => 60
+            [method] => GET
+            [headers] => Array
+                (
+                    [Authorization] => Bearer sk_72aeca13-a21d-4964-8dee-ef3f789b1d39
+                    [X-Merchant-Code] => QA
+                )
+
+        )
+
+)
+[2023-11-23 16:02:23] Array
+(
+    [0] => response
+    [1] => Array
+        (
+            [headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                (
+                    [data:protected] => Array
+                        (
+                            [date] => Thu, 23 Nov 2023 16:02:23 GMT
+                            [content-type] => application/json
+                            [content-length] => 48
+                            [vary] => Origin
+                            [x-current-time] => 1700755343
+                            [strict-transport-security] => max-age=31536000; includeSubDomains
+                            [x-content-type-options] => nosniff
+                            [x-xss-protection] => 1; mode=block
+                            [referrer-policy] => no-referrer-when-downgrade
+                            [cf-cache-status] => DYNAMIC
+                            [set-cookie] => _cfuvid=mKomy568lMO4Mxjy0jn77jn6gNybFtwhiBOqlD1PM.M-1700755343252-0-604800000; path=/; domain=.tabby.ai; HttpOnly; Secure; SameSite=None
+                            [server] => cloudflare
+                            [cf-ray] => 82aaa2de5838bb29-MXP
+                            [alt-svc] => h3=":443"; ma=86400
+                        )
+
+                )
+
+            [body] => {"status":"error","errorType":"not_authorized"}
+
+            [response] => Array
+                (
+                    [code] => 401
+                    [message] => Unauthorized
+                )
+
+            [cookies] => Array
+                (
+                    [0] => WP_Http_Cookie Object
+                        (
+                            [name] => _cfuvid
+                            [value] => mKomy568lMO4Mxjy0jn77jn6gNybFtwhiBOqlD1PM.M-1700755343252-0-604800000
+                            [expires] => 
+                            [path] => /
+                            [domain] => tabby.ai
+                            [port] => 
+                            [host_only] => 
+                        )
+
+                )
+
+            [filename] => 
+            [http_response] => WP_HTTP_Requests_Response Object
+                (
+                    [data] => 
+                    [headers] => 
+                    [status] => 
+                    [response:protected] => WpOrg\Requests\Response Object
+                        (
+                            [body] => {"status":"error","errorType":"not_authorized"}
+
+                            [raw] => HTTP/1.1 401 Unauthorized
+Date: Thu, 23 Nov 2023 16:02:23 GMT
+Content-Type: application/json
+Content-Length: 48
+Connection: close
+vary: Origin
+x-current-time: 1700755343
+strict-transport-security: max-age=31536000; includeSubDomains
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+referrer-policy: no-referrer-when-downgrade
+CF-Cache-Status: DYNAMIC
+Set-Cookie: _cfuvid=mKomy568lMO4Mxjy0jn77jn6gNybFtwhiBOqlD1PM.M-1700755343252-0-604800000; path=/; domain=.tabby.ai; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+CF-RAY: 82aaa2de5838bb29-MXP
+alt-svc: h3=":443"; ma=86400
+
+{"status":"error","errorType":"not_authorized"}
+
+                            [headers] => WpOrg\Requests\Response\Headers Object
+                                (
+                                    [data:protected] => Array
+                                        (
+                                            [date] => Array
+                                                (
+                                                    [0] => Thu, 23 Nov 2023 16:02:23 GMT
+                                                )
+
+                                            [content-type] => Array
+                                                (
+                                                    [0] => application/json
+                                                )
+
+                                            [content-length] => Array
+                                                (
+                                                    [0] => 48
+                                                )
+
+                                            [vary] => Array
+                                                (
+                                                    [0] => Origin
+                                                )
+
+                                            [x-current-time] => Array
+                                                (
+                                                    [0] => 1700755343
+                                                )
+
+                                            [strict-transport-security] => Array
+                                                (
+                                                    [0] => max-age=31536000; includeSubDomains
+                                                )
+
+                                            [x-content-type-options] => Array
+                                                (
+                                                    [0] => nosniff
+                                                )
+
+                                            [x-xss-protection] => Array
+                                                (
+                                                    [0] => 1; mode=block
+                                                )
+
+                                            [referrer-policy] => Array
+                                                (
+                                                    [0] => no-referrer-when-downgrade
+                                                )
+
+                                            [cf-cache-status] => Array
+                                                (
+                                                    [0] => DYNAMIC
+                                                )
+
+                                            [set-cookie] => Array
+                                                (
+                                                    [0] => _cfuvid=mKomy568lMO4Mxjy0jn77jn6gNybFtwhiBOqlD1PM.M-1700755343252-0-604800000; path=/; domain=.tabby.ai; HttpOnly; Secure; SameSite=None
+                                                )
+
+                                            [server] => Array
+                                                (
+                                                    [0] => cloudflare
+                                                )
+
+                                            [cf-ray] => Array
+                                                (
+                                                    [0] => 82aaa2de5838bb29-MXP
+                                                )
+
+                                            [alt-svc] => Array
+                                                (
+                                                    [0] => h3=":443"; ma=86400
+                                                )
+
+                                        )
+
+                                )
+
+                            [status_code] => 401
+                            [protocol_version] => 1.1
+                            [success] => 
+                            [redirects] => 0
+                            [url] => https://api.tabby.ai/api/v1/webhooks
+                            [history] => Array
+                                (
+                                )
+
+                            [cookies] => WpOrg\Requests\Cookie\Jar Object
+                                (
+                                    [cookies:protected] => Array
+                                        (
+                                            [_cfuvid] => WpOrg\Requests\Cookie Object
+                                                (
+                                                    [name] => _cfuvid
+                                                    [value] => mKomy568lMO4Mxjy0jn77jn6gNybFtwhiBOqlD1PM.M-1700755343252-0-604800000
+                                                    [attributes] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                                                        (
+                                                            [data:protected] => Array
+                                                                (
+                                                                    [path] => /
+                                                                    [domain] => tabby.ai
+                                                                    [httponly] => 1
+                                                                    [secure] => 1
+                                                                    [samesite] => None
+                                                                )
+
+                                                        )
+
+                                                    [flags] => Array
+                                                        (
+                                                            [creation] => 1700755343
+                                                            [last-access] => 1700755343
+                                                            [persistent] => 
+                                                            [host-only] => 
+                                                        )
+
+                                                    [reference_time] => 1700755343
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [filename:protected] => 
+                )
+
+        )
+
+)
+[2023-11-23 16:02:23] Array
+(
+    [0] => response - body - 
+    [1] => Array
+        (
+            [status] => error
+            [errorType] => not_authorized
+            [error] => 
+        )
+
+)
+[2023-11-23 16:02:24] Array
+(
+    [0] => request
+    [1] => webhooks
+    [2] => GET
+    [3] => Array
+        (
+            [timeout] => 60
+            [method] => GET
+            [headers] => Array
+                (
+                    [Authorization] => Bearer sk_72aeca13-a21d-4964-8dee-ef3f789b1d39
+                    [X-Merchant-Code] => SA
+                )
+
+        )
+
+)
+[2023-11-23 16:02:25] Array
+(
+    [0] => response
+    [1] => Array
+        (
+            [headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                (
+                    [data:protected] => Array
+                        (
+                            [date] => Thu, 23 Nov 2023 16:02:24 GMT
+                            [content-type] => application/json
+                            [content-length] => 48
+                            [vary] => Origin
+                            [x-current-time] => 1700755344
+                            [strict-transport-security] => max-age=31536000; includeSubDomains
+                            [x-content-type-options] => nosniff
+                            [x-xss-protection] => 1; mode=block
+                            [referrer-policy] => no-referrer-when-downgrade
+                            [cf-cache-status] => DYNAMIC
+                            [set-cookie] => _cfuvid=16SMZ6oTun1Z.rpLgXw8sFPMsroNBceWs2ZzN4E1cAs-1700755344629-0-604800000; path=/; domain=.tabby.ai; HttpOnly; Secure; SameSite=None
+                            [server] => cloudflare
+                            [cf-ray] => 82aaa2e70ffb4c66-MXP
+                            [alt-svc] => h3=":443"; ma=86400
+                        )
+
+                )
+
+            [body] => {"status":"error","errorType":"not_authorized"}
+
+            [response] => Array
+                (
+                    [code] => 401
+                    [message] => Unauthorized
+                )
+
+            [cookies] => Array
+                (
+                    [0] => WP_Http_Cookie Object
+                        (
+                            [name] => _cfuvid
+                            [value] => 16SMZ6oTun1Z.rpLgXw8sFPMsroNBceWs2ZzN4E1cAs-1700755344629-0-604800000
+                            [expires] => 
+                            [path] => /
+                            [domain] => tabby.ai
+                            [port] => 
+                            [host_only] => 
+                        )
+
+                )
+
+            [filename] => 
+            [http_response] => WP_HTTP_Requests_Response Object
+                (
+                    [data] => 
+                    [headers] => 
+                    [status] => 
+                    [response:protected] => WpOrg\Requests\Response Object
+                        (
+                            [body] => {"status":"error","errorType":"not_authorized"}
+
+                            [raw] => HTTP/1.1 401 Unauthorized
+Date: Thu, 23 Nov 2023 16:02:24 GMT
+Content-Type: application/json
+Content-Length: 48
+Connection: close
+vary: Origin
+x-current-time: 1700755344
+strict-transport-security: max-age=31536000; includeSubDomains
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+referrer-policy: no-referrer-when-downgrade
+CF-Cache-Status: DYNAMIC
+Set-Cookie: _cfuvid=16SMZ6oTun1Z.rpLgXw8sFPMsroNBceWs2ZzN4E1cAs-1700755344629-0-604800000; path=/; domain=.tabby.ai; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+CF-RAY: 82aaa2e70ffb4c66-MXP
+alt-svc: h3=":443"; ma=86400
+
+{"status":"error","errorType":"not_authorized"}
+
+                            [headers] => WpOrg\Requests\Response\Headers Object
+                                (
+                                    [data:protected] => Array
+                                        (
+                                            [date] => Array
+                                                (
+                                                    [0] => Thu, 23 Nov 2023 16:02:24 GMT
+                                                )
+
+                                            [content-type] => Array
+                                                (
+                                                    [0] => application/json
+                                                )
+
+                                            [content-length] => Array
+                                                (
+                                                    [0] => 48
+                                                )
+
+                                            [vary] => Array
+                                                (
+                                                    [0] => Origin
+                                                )
+
+                                            [x-current-time] => Array
+                                                (
+                                                    [0] => 1700755344
+                                                )
+
+                                            [strict-transport-security] => Array
+                                                (
+                                                    [0] => max-age=31536000; includeSubDomains
+                                                )
+
+                                            [x-content-type-options] => Array
+                                                (
+                                                    [0] => nosniff
+                                                )
+
+                                            [x-xss-protection] => Array
+                                                (
+                                                    [0] => 1; mode=block
+                                                )
+
+                                            [referrer-policy] => Array
+                                                (
+                                                    [0] => no-referrer-when-downgrade
+                                                )
+
+                                            [cf-cache-status] => Array
+                                                (
+                                                    [0] => DYNAMIC
+                                                )
+
+                                            [set-cookie] => Array
+                                                (
+                                                    [0] => _cfuvid=16SMZ6oTun1Z.rpLgXw8sFPMsroNBceWs2ZzN4E1cAs-1700755344629-0-604800000; path=/; domain=.tabby.ai; HttpOnly; Secure; SameSite=None
+                                                )
+
+                                            [server] => Array
+                                                (
+                                                    [0] => cloudflare
+                                                )
+
+                                            [cf-ray] => Array
+                                                (
+                                                    [0] => 82aaa2e70ffb4c66-MXP
+                                                )
+
+                                            [alt-svc] => Array
+                                                (
+                                                    [0] => h3=":443"; ma=86400
+                                                )
+
+                                        )
+
+                                )
+
+                            [status_code] => 401
+                            [protocol_version] => 1.1
+                            [success] => 
+                            [redirects] => 0
+                            [url] => https://api.tabby.ai/api/v1/webhooks
+                            [history] => Array
+                                (
+                                )
+
+                            [cookies] => WpOrg\Requests\Cookie\Jar Object
+                                (
+                                    [cookies:protected] => Array
+                                        (
+                                            [_cfuvid] => WpOrg\Requests\Cookie Object
+                                                (
+                                                    [name] => _cfuvid
+                                                    [value] => 16SMZ6oTun1Z.rpLgXw8sFPMsroNBceWs2ZzN4E1cAs-1700755344629-0-604800000
+                                                    [attributes] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                                                        (
+                                                            [data:protected] => Array
+                                                                (
+                                                                    [path] => /
+                                                                    [domain] => tabby.ai
+                                                                    [httponly] => 1
+                                                                    [secure] => 1
+                                                                    [samesite] => None
+                                                                )
+
+                                                        )
+
+                                                    [flags] => Array
+                                                        (
+                                                            [creation] => 1700755344
+                                                            [last-access] => 1700755344
+                                                            [persistent] => 
+                                                            [host-only] => 
+                                                        )
+
+                                                    [reference_time] => 1700755344
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [filename:protected] => 
+                )
+
+        )
+
+)
+[2023-11-23 16:02:25] Array
+(
+    [0] => response - body - 
+    [1] => Array
+        (
+            [status] => error
+            [errorType] => not_authorized
+            [error] => 
+        )
+
+)
+[2023-11-23 16:02:25] Array
+(
+    [0] => request
+    [1] => webhooks
+    [2] => GET
+    [3] => Array
+        (
+            [timeout] => 60
+            [method] => GET
+            [headers] => Array
+                (
+                    [Authorization] => Bearer sk_72aeca13-a21d-4964-8dee-ef3f789b1d39
+                    [X-Merchant-Code] => AE
+                )
+
+        )
+
+)
+[2023-11-23 16:02:26] Array
+(
+    [0] => response
+    [1] => Array
+        (
+            [headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                (
+                    [data:protected] => Array
+                        (
+                            [date] => Thu, 23 Nov 2023 16:02:25 GMT
+                            [content-type] => application/json
+                            [content-length] => 48
+                            [vary] => Origin
+                            [x-current-time] => 1700755345
+                            [strict-transport-security] => max-age=31536000; includeSubDomains
+                            [x-content-type-options] => nosniff
+                            [x-xss-protection] => 1; mode=block
+                            [referrer-policy] => no-referrer-when-downgrade
+                            [cf-cache-status] => DYNAMIC
+                            [set-cookie] => _cfuvid=NVYIYRITFCTOneihhuKLLjK2ZxFQufURHtnTTJabNKo-1700755345958-0-604800000; path=/; domain=.tabby.ai; HttpOnly; Secure; SameSite=None
+                            [server] => cloudflare
+                            [cf-ray] => 82aaa2ef684859ad-MXP
+                            [alt-svc] => h3=":443"; ma=86400
+                        )
+
+                )
+
+            [body] => {"status":"error","errorType":"not_authorized"}
+
+            [response] => Array
+                (
+                    [code] => 401
+                    [message] => Unauthorized
+                )
+
+            [cookies] => Array
+                (
+                    [0] => WP_Http_Cookie Object
+                        (
+                            [name] => _cfuvid
+                            [value] => NVYIYRITFCTOneihhuKLLjK2ZxFQufURHtnTTJabNKo-1700755345958-0-604800000
+                            [expires] => 
+                            [path] => /
+                            [domain] => tabby.ai
+                            [port] => 
+                            [host_only] => 
+                        )
+
+                )
+
+            [filename] => 
+            [http_response] => WP_HTTP_Requests_Response Object
+                (
+                    [data] => 
+                    [headers] => 
+                    [status] => 
+                    [response:protected] => WpOrg\Requests\Response Object
+                        (
+                            [body] => {"status":"error","errorType":"not_authorized"}
+
+                            [raw] => HTTP/1.1 401 Unauthorized
+Date: Thu, 23 Nov 2023 16:02:25 GMT
+Content-Type: application/json
+Content-Length: 48
+Connection: close
+vary: Origin
+x-current-time: 1700755345
+strict-transport-security: max-age=31536000; includeSubDomains
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+referrer-policy: no-referrer-when-downgrade
+CF-Cache-Status: DYNAMIC
+Set-Cookie: _cfuvid=NVYIYRITFCTOneihhuKLLjK2ZxFQufURHtnTTJabNKo-1700755345958-0-604800000; path=/; domain=.tabby.ai; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+CF-RAY: 82aaa2ef684859ad-MXP
+alt-svc: h3=":443"; ma=86400
+
+{"status":"error","errorType":"not_authorized"}
+
+                            [headers] => WpOrg\Requests\Response\Headers Object
+                                (
+                                    [data:protected] => Array
+                                        (
+                                            [date] => Array
+                                                (
+                                                    [0] => Thu, 23 Nov 2023 16:02:25 GMT
+                                                )
+
+                                            [content-type] => Array
+                                                (
+                                                    [0] => application/json
+                                                )
+
+                                            [content-length] => Array
+                                                (
+                                                    [0] => 48
+                                                )
+
+                                            [vary] => Array
+                                                (
+                                                    [0] => Origin
+                                                )
+
+                                            [x-current-time] => Array
+                                                (
+                                                    [0] => 1700755345
+                                                )
+
+                                            [strict-transport-security] => Array
+                                                (
+                                                    [0] => max-age=31536000; includeSubDomains
+                                                )
+
+                                            [x-content-type-options] => Array
+                                                (
+                                                    [0] => nosniff
+                                                )
+
+                                            [x-xss-protection] => Array
+                                                (
+                                                    [0] => 1; mode=block
+                                                )
+
+                                            [referrer-policy] => Array
+                                                (
+                                                    [0] => no-referrer-when-downgrade
+                                                )
+
+                                            [cf-cache-status] => Array
+                                                (
+                                                    [0] => DYNAMIC
+                                                )
+
+                                            [set-cookie] => Array
+                                                (
+                                                    [0] => _cfuvid=NVYIYRITFCTOneihhuKLLjK2ZxFQufURHtnTTJabNKo-1700755345958-0-604800000; path=/; domain=.tabby.ai; HttpOnly; Secure; SameSite=None
+                                                )
+
+                                            [server] => Array
+                                                (
+                                                    [0] => cloudflare
+                                                )
+
+                                            [cf-ray] => Array
+                                                (
+                                                    [0] => 82aaa2ef684859ad-MXP
+                                                )
+
+                                            [alt-svc] => Array
+                                                (
+                                                    [0] => h3=":443"; ma=86400
+                                                )
+
+                                        )
+
+                                )
+
+                            [status_code] => 401
+                            [protocol_version] => 1.1
+                            [success] => 
+                            [redirects] => 0
+                            [url] => https://api.tabby.ai/api/v1/webhooks
+                            [history] => Array
+                                (
+                                )
+
+                            [cookies] => WpOrg\Requests\Cookie\Jar Object
+                                (
+                                    [cookies:protected] => Array
+                                        (
+                                            [_cfuvid] => WpOrg\Requests\Cookie Object
+                                                (
+                                                    [name] => _cfuvid
+                                                    [value] => NVYIYRITFCTOneihhuKLLjK2ZxFQufURHtnTTJabNKo-1700755345958-0-604800000
+                                                    [attributes] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                                                        (
+                                                            [data:protected] => Array
+                                                                (
+                                                                    [path] => /
+                                                                    [domain] => tabby.ai
+                                                                    [httponly] => 1
+                                                                    [secure] => 1
+                                                                    [samesite] => None
+                                                                )
+
+                                                        )
+
+                                                    [flags] => Array
+                                                        (
+                                                            [creation] => 1700755346
+                                                            [last-access] => 1700755346
+                                                            [persistent] => 
+                                                            [host-only] => 
+                                                        )
+
+                                                    [reference_time] => 1700755346
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [filename:protected] => 
+                )
+
+        )
+
+)
+[2023-11-23 16:02:26] Array
+(
+    [0] => response - body - 
+    [1] => Array
+        (
+            [status] => error
+            [errorType] => not_authorized
+            [error] => 
+        )
+
+)

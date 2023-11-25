@@ -1,0 +1,1424 @@
+/*
+	1. SHORTCODE HOT DEAL
+	2. SHORTCODE BANNER
+	3. SHORTCODE LOGO SLIDER
+	4. SHORTCODE PRODUCT
+	5. SHORTCODE BLOG
+	6. SHORTCODE TESTIMONIAL
+	7. SHORTCODE TEAM MEMBER
+	8. SHORTCODE COUNTDOWN
+	9. SHORTCODE TYPE TAB PRODUCTS
+	10. SHORTCODE SUBSCRIPTION
+	11. SHORTCODE LIST CATEGORIES
+	12. SHORTCODE PRODUCT CATEGORIES
+	13. SHORTCODE COUPON
+	14. SHORTCODE SOCIAL
+	15. SHORTCODE VIDEO
+	16. SHORTCODE COUPON 2
+*/
+.animated{
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both
+}
+@-webkit-keyframes fadeIn{
+	0%{opacity: 0}
+	100%{opacity: 1}
+}
+@keyframes fadeIn{
+	0%{opacity: 0}
+	100%{opacity: 1}
+}
+.fadeIn{
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn
+}
+@-webkit-keyframes fadeOut{
+	0%{opacity: 1}
+	100%{opacity: 0}
+}
+@keyframes fadeOut{
+	0%{opacity: 1}
+	100%{opacity: 0}
+}
+.fadeOut{
+	-webkit-animation-name: fadeOut;
+	animation-name: fadeOut
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*- 1. SHORTCODE HOT DEAL --------------------------------------------------------------------------------------*/
+.shortcode-title{
+	font-family: var(--loobek-heading-font);
+	font-weight: var(--loobek-heading-font-weight);
+	letter-spacing: var(--loobek-heading-letter-spacing);
+	font-size: var(--loobek-heading-font-size);
+	line-height: var(--loobek-heading-line-height);
+}
+.ts-product-deals-wrapper .shortcode-heading-wrapper h2{
+	display: flex;
+	align-items: center;
+}
+.ts-product-deals-wrapper.title-center .shortcode-heading-wrapper h2{
+	display: block;
+}
+.ts-countdown .label{
+	margin-left: 20px;/* rtl */
+	margin-right: 10px;
+	font-family: var(--loobek-button-font);
+	font-weight: var(--loobek-button-font-weight);
+}
+.ts-countdown.style-inline{
+	display: flex;
+	align-items: center;
+    margin: 0;
+	gap: 5px;
+	line-height: 40px;
+}
+.ts-countdown.style-inline .counter-wrapper{
+	display: flex;
+	gap: 10px;
+}
+.ts-countdown.style-inline .ref-wrapper{
+	margin-left: 1px;/* rtl */
+	margin-right: 0;
+}
+.ts-countdown.style-inline .dots{
+	padding: 0 4px;
+}
+.ts-product-deals-wrapper .ts-countdown{
+	width: auto;
+}
+body .ts-product-deals-wrapper.show-counter-today .shortcode-heading-wrapper h2{
+	margin-right: 20px;/* rtl */
+}
+.product-counter > span{
+	font-family: var(--loobek-button-font);
+	font-weight: var(--loobek-button-font-weight);
+}
+.ts-product header .ts-countdown .counter-wrapper{
+	padding-left: 0;/* rtl */
+	padding-right: 5px;/* rtl */
+}
+header .style-inline.ts-countdown .seconds{
+	min-width: 44px;
+}
+body.image-button-radius *:not(.product-counter) > .style-inline.ts-countdown{
+	border-radius: 10px;
+}
+.style-inline .counter-wrapper > *{
+	display: flex;
+	align-items: flex-end;
+}
+.ts-countdown.style-inline .number{
+	display: flex;
+}
+.ts-product-deals-wrapper .content-wrapper{
+	clear: both;
+}
+.ts-product-deals-wrapper header .ts-countdown{
+	font-size: var(--loobek-h6-font-size);
+}
+.ts-countdown:not(.style-inline) > div{
+	padding: 0;
+}
+body .ts-countdown:not(.style-inline) .ref-wrapper{
+	width: 100%;
+	padding: 0;
+	display: block;
+	line-height: 20px;
+	font-size: var(--loobek-h6-font-size);
+	line-height: var(--loobek-h6-line-height);
+}
+.ts-shortcode.has-background-item .product .meta-wrapper{
+	padding: 10px 20px 20px 20px;
+}
+.elementor-counter .elementor-counter-number-wrapper{
+	font-family: var(--loobek-heading-font);
+	font-weight: var(--loobek-heading-font-weight);
+	letter-spacing: var(--loobek-heading-letter-spacing);
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*- 2. SHORTCODE BANNER ----------------------------------------------------------------------------------------*/
+.elementor-widget-ts-banner{
+	width: 100%;
+}
+.ts-banner,
+.ts-banner *{
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+}
+.ts-banner{
+	overflow: hidden;
+	position: relative;
+}
+.ts-banner .banner-wrapper{
+	position: relative;
+	text-align: left;/* rtl */
+}
+.ts-banner .box-content{
+	position: absolute;
+	padding: 30px;
+	z-index: 3;
+}
+.ts-banner .banner-wrapper .banner-bg{
+	overflow: hidden;
+}
+.ts-banner.style-simple .box-content h4{
+	text-align: center;
+	padding: 0 5px;
+	display: inline-block;
+}
+.ts-banner .banner-wrapper > a{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	z-index: 9;
+}
+.ts-banner .banner-bg{
+	transition: opacity 450ms;
+}
+.ts-banner h2,
+.ts-banner h4{
+	color: #ffffff;
+}
+.ts-banner h2{
+	font-family: var(--loobek-heading-font);
+	font-weight: var(--loobek-heading-font-weight);
+	letter-spacing: var(--loobek-heading-letter-spacing);
+}
+.ts-banner h3,
+.ts-banner h4{
+	font-family: var(--loobek-main-font);
+	font-weight: var(--loobek-main-font-weight);
+}
+.coupon-code{
+	display: inline-block;
+	line-height: 46px;
+	padding: 0 30px;
+	position: relative;
+	cursor: pointer;
+	white-space: nowrap;
+}
+.ts-banner .coupon-code{
+	margin-top: 20px;
+	transition: 100ms ease 0s;
+}
+body.image-button-radius .ts-banner .coupon-code{
+	border-radius: 10px;
+}
+.coupon-code:after{
+	display: inline-block;
+	margin-left: 20px;/* rtl */
+	font-family: 'icomoon';
+	font-weight: normal;
+	content: "\e90e";
+}
+.coupon-code:before{
+	border-width: 1px;
+	border-style: dashed;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	content: "";
+	transition: 100ms ease 0s;
+}
+body.image-button-radius .coupon-code:before{
+	border-radius: 10px;
+}
+.coupon-code:hover:before{
+	border-width: 2px;
+}
+.ts-banner h3{
+	text-decoration-thickness: 1px !important;
+}
+.ts-banner .header-content > *{
+	margin-bottom: 14px;
+}
+.ts-banner .header-content .special-inline > *{
+	margin-right: 5px;/* rtl */
+}
+.ts-banner .header-content .special-inline > *:last-child{
+	margin: 0;
+}
+.ts-banner .header-content > *:last-child{
+	margin-bottom: 0;
+}
+.ts-banner .ts-banner-button{
+	position: relative;
+}
+.button-default .ts-banner-button{
+	padding-top: 6px;
+}
+.ts-banner .ts-banner-button .button + .button{
+	margin-left: 8px;/* rtl */
+}
+.elementor-editor-active .ts-banner a.button,
+.woocommerce .ts-banner a.button,
+.ts-banner a.button{
+	padding: 0 20px;
+	line-height: 32px;
+	font-size: var(--loobek-main-font-size);
+}
+.ts-banner-button a{
+	display: inline-block;
+}
+.ts-banner.text-left .banner-wrapper{
+	text-align: left;
+}
+.ts-banner.text-right .banner-wrapper{
+	text-align: right;
+}
+.ts-banner.text-center .banner-wrapper{
+	text-align: center;
+}
+.ts-banner .banner-bg .mobile-banner{
+	display: none;
+}
+
+/* Banner content position */
+.left-top .box-content{
+	left: 0;
+	right: auto;
+	top: 0;
+	bottom: auto;
+}
+.left-bottom .box-content{
+	left: 0;
+	right: auto;
+	top: auto;
+	bottom: 0;
+}
+.left-center .box-content{
+	left: 0;
+	right: auto;
+	top: 50%;
+	bottom: auto;
+	transform: translate(0,-50%);
+}
+.right-top .box-content{
+	right: 0;
+	left: auto;
+	top: 0;
+	bottom: auto;
+}
+.right-bottom .box-content{
+	right: 0;
+	left: auto;
+	top: auto;
+	bottom: 0;
+}
+.right-center .box-content{
+	right: 0;
+	left: auto;
+	top: 50%;
+	bottom: auto;
+	transform: translate(0,-50%);
+}
+.center-top .box-content{
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: auto;
+	width: 100%;
+}
+.center-bottom .box-content{
+	left: 0;
+	right: 0;
+	top: auto;
+	bottom: 0;
+	width: 100%;
+}
+.center-center .box-content{
+	left: 50%;right: auto;
+	top: 50%;bottom: auto;
+	width: 100%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+}
+.ts-banner .banner-bg img{
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+}
+.ts-banner .background-overlay{
+	height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+	z-index: 1;
+}
+
+.eff-image img.bg-image{
+	transition: 0.3s ease 0s;
+}
+.eff-gray:hover img.bg-image{
+    filter: grayscale(100%);
+}
+.eff-gray .overlay{
+	display: none;
+}
+.eff-grow-rotate:hover img.bg-image,
+.eff-scale:hover img.bg-image{
+	transform: scale(1.12,1.12);
+}
+.eff-grow-rotate img.bg-image{
+	transform: rotate(0deg) scale(1,1);
+	transition: 0.3s ease 0s;
+}
+.eff-grow-rotate:hover img.bg-image{
+	transform: rotate(3deg) scale(1.12);
+}
+.has-opacity:hover img.bg-image{
+	opacity: 0.6;
+}
+
+/* Effect background scale opacity */
+.ts-banner.background-opacity .banner-bg img,
+.ts-banner.background-scale-opacity .banner-bg img,
+.ts-banner.background-opacity-and-line .banner-bg img,
+.ts-banner.background-dark-and-line .banner-bg img,
+.ts-banner.background-scale-opacity-line .banner-bg img,
+.ts-banner.background-scale-dark-line .banner-bg img{
+	transition: transform 800ms , opacity 500ms ease 0s;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*- 3. SHORTCODE LOGO SLIDER -----------------------------------------------------------------------------------*/
+.ts-logo-slider-wrapper .content-wrapper{
+	padding: 0;
+	text-align: center;
+}
+.ts-logo-slider-wrapper .content-wrapper ul{
+	padding: 0;
+	margin: 0;
+}
+.ts-logo-slider-wrapper .owl-carousel .owl-item{
+	text-align: center;
+}
+.ts-logo-slider-wrapper .owl-carousel *{
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+}
+.ts-logo-slider-wrapper a{
+	display: block;
+	text-align: center;
+}
+.ts-logo-slider-wrapper img{
+	transition: 300ms ease 0s;
+	opacity: 1;
+}
+.ts-logo-slider-wrapper .item:hover img{
+	opacity: 0.7;
+}
+.ts-logo-slider-wrapper .owl-carousel .owl-item img{
+	width: auto;
+	margin: 0 auto;
+}
+.ts-logo-slider-wrapper.no-nav .content-wrapper .items{
+	padding-left: 0;
+	padding-right: 0;
+}
+.ts-logo-slider-wrapper .item{
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+}
+.ts-shortcode.ts-logo-slider-wrapper .items .item{
+	margin: 0;
+	position: relative;
+	z-index: 2;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+}
+.ts-logo-slider-wrapper:not(.ts-slider) .item{
+	float: left;/* rtl */
+}
+.ts-logo-slider-wrapper:not(.ts-slider).columns-6 .item{
+	width: 16.66666667%;
+}
+.ts-logo-slider-wrapper:not(.ts-slider).columns-5 .item{
+	width: 20%;
+}
+.ts-logo-slider-wrapper:not(.ts-slider).columns-4 .item{
+	width: 25%;
+}
+.ts-logo-slider-wrapper:not(.ts-slider).columns-3 .item{
+	width: 33.33333333%;
+}
+.ts-logo-slider-wrapper:not(.ts-slider).columns-2 .item{
+	width: 50%;
+}
+.ts-logo-slider-wrapper:not(.ts-slider).columns-1 .item{
+	width: 100%;
+}
+.ts-logo-slider-wrapper .items > .item{
+	width: 16.66666667%;
+	float: left;/* rtl */
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*- 4. SHORTCODE PRODUCT ---------------------------------------------------------------------------------------*/
+.ts-shortcode{
+	position: relative;
+	clear: both;
+}
+.ts-blogs .content-wrapper{
+	overflow: hidden;
+}
+.ts-shortcode:hover{
+	z-index: 1;
+}
+.shortcode-heading-wrapper{
+	margin-bottom: 25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.style-vertical.show-icon .shortcode-heading-wrapper{
+	margin-bottom: 40px;
+}
+.show-counter-today .shortcode-heading-wrapper{
+	justify-content: flex-start;
+}
+.show-counter-today.title-center .shortcode-heading-wrapper{
+	justify-content: center;
+}
+.shortcode-heading-wrapper h2{
+	margin-bottom: 0;
+	display: block;
+}
+.title-center .shortcode-heading-wrapper{
+	display: block;
+}
+.title-center .shortcode-heading-wrapper{
+	text-align: center;
+}
+.ts-product-deals-wrapper.title-center .shortcode-heading-wrapper{
+	display: block;
+}
+.ts-product-deals-wrapper.title-center.show-counter-today .shortcode-heading-wrapper{
+	display: flex;
+}
+.ts-shortcode.title-center .shortcode-heading-wrapper{
+	float: none !important;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*- 5. SHORTCODE BLOG ------------------------------------------------------------------------------------------*/
+.ts-shortcode .view-more{
+	color: var(--loobek-text-bold-color);
+}
+.ts-shortcode .view-more:hover{
+	color: var(--loobek-primary-color);
+}
+.ts-shortcode .view-more:hover:before{
+	border-color: var(--loobek-primary-color);
+}
+.ts-shortcode .view-more-wrapper{
+	position: relative;
+	margin-top: 30px;
+	z-index: 3;
+}
+.ts-shortcode.view-more-style-button .view-more-wrapper,
+.ts-shortcode.title-center .view-more-wrapper{
+	text-align: center;
+}
+.ts-shortcode .shortcode-heading-wrapper .view-more-wrapper{
+	margin-top: 0;
+}
+.ts-shortcode .shortcode-heading-wrapper .view-more-wrapper .button{
+	margin-top: 10px;
+}
+.ts-blogs-wrapper.item-layout-list .view-more-wrapper{
+	margin-top: 30px;
+}
+.ts-blogs-wrapper article{
+	margin-bottom: 50px;
+}
+.ts-blogs-wrapper .blogs{
+	margin-bottom: -50px;
+}
+.ts-blogs-wrapper.item-layout-list article{
+	margin-bottom: 30px;
+}
+.ts-blogs-wrapper.item-layout-list .blogs{
+	margin-bottom: -30px;
+}
+
+/* MANSORY */
+.ts-blogs .blogs .quote-wrapper blockquote{
+	background: transparent;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*- 6. SHORTCODE TESTIMONIAL -----------------------------------------------------------------------------------*/
+.ts-testimonial-wrapper.title-center .shortcode-heading-wrapper{
+	margin-bottom: 35px;
+}
+.ts-shortcode.ts-testimonial-wrapper{
+	position: relative;
+}
+.testimonial-content .content-top{
+	margin-bottom: 25px;
+}
+body .ts-testimonial-wrapper .rating-wrapper{
+	margin-bottom: 10px;
+}
+.ts-testimonial-wrapper:not(.ts-slider) .items,
+.ts-testimonial-wrapper .items .swiper-wrapper{
+	gap: 40px 0;
+}
+.ts-testimonial-wrapper a{
+	display: block;
+}
+.ts-testimonial-wrapper .swiper-wrapper .item{
+	height: auto;
+}
+.ts-testimonial-wrapper .items .item{
+	position: relative;
+}
+.content-bottom .author,
+.testimonial-content .content{
+	color: var(--loobek-text-bold-color);
+}
+.ts-testimonial-wrapper .testimonial-content{
+	position: relative;
+	z-index: 1;
+	max-width: 480px;
+	display: inline-block;
+}
+body.image-button-radius .ts-testimonial-wrapper .testimonial-content{
+	border-radius: 10px;
+}
+.ts-testimonial-wrapper.columns-1 .testimonial-content{
+	max-width: 1100px;
+}
+.testimonial-content .content:before{
+	content: "\"";
+}
+.testimonial-content .content:after{
+	content: "\"";
+}
+.no-avatar.style-1 .title,
+.has-background.style-2 .title{
+	text-decoration: underline;
+}
+.ts-testimonial-wrapper .title,
+.testimonial-content .author > span:last-child,
+.ts-team-members .member-social a{
+	color: var(--loobek-text-bold-color);
+}
+.testimonial-content .content-top,
+.testimonial-content .content-bottom{
+	display: inline-flex;
+	align-items: center;
+	gap: 5px 10px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.show-more-text .testimonial-content .content-bottom{
+	font-size: var(--loobek-main-small-font-size);
+}
+.show-more-text:not(.has-background) .testimonial-content .content-bottom{
+	font-family: var(--loobek-product-name-font);
+	font-weight: var(--loobek-product-name-font-weight);
+}
+.ts-testimonial-wrapper a.title:hover{
+	color: var(--loobek-primary-color);
+}
+.testimonial-content .content-top,
+:is(.columns-1,.columns-2) .testimonial-content .content-bottom{
+	gap: 5px 20px;
+}
+.testimonial-content .content-middle{
+	display: block;
+}
+.testimonial-content .content-bottom,
+.testimonial-content .content-middle{
+	margin-top: 14px;
+}
+.style-3 .testimonial-content > .content-middle{
+	margin-top: 10px;
+}
+.testimonial-content .content-middle .avatar{
+	margin-top: 10px;
+}
+.testimonial-content .content-middle .avatar + .author{
+	margin-top: 10px;
+}
+.ts-testimonial-wrapper .testimonial-content .image,
+.ts-testimonial-wrapper .testimonial-content .avatar{
+	width: 30px;
+}
+.ts-testimonial-wrapper.style-2 .testimonial-content .image,
+.ts-testimonial-wrapper.style-3 .testimonial-content .image,
+.ts-testimonial-wrapper.style-2 .testimonial-content .avatar,
+.ts-testimonial-wrapper.style-3 .testimonial-content .avatar{
+	width: 50px;
+}
+.image-button-radius .testimonial-content .image img,
+.image-button-radius .testimonial-content .avatar img{
+	border-radius: 5px;
+}
+.ts-testimonial-wrapper.style-2 .title{
+	font-family: var(--loobek-button-font);
+	font-weight: var(--loobek-button-font-weight);
+}
+.style-3 .testimonial-content > .author{
+	margin-top: 5px;
+	display: block;
+}
+.ts-shortcode.ts-testimonial-wrapper .rating span,
+body blockquote .rating span{
+	overflow: hidden;
+	display: block;
+	position: absolute;
+	left: 0;/* rtl */
+	top: 0;
+	font-size: 0;
+}
+.ts-testimonial-wrapper.columns-1 .swiper .swiper-button-prev{
+	left: 0;/* rtl */
+	right: auto;
+}
+.ts-testimonial-wrapper.columns-1 .swiper .swiper-button-next{
+	right: 0;/* rtl */
+	left: auto;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*- 7. SHORTCODE TEAM MEMBER -----------------------------------------------------------------------------------*/
+.ts-shortcode.ts-team-members .item{
+	margin-bottom: 40px;
+}
+.ts-shortcode.ts-team-members .items{
+	margin-bottom: -40px;
+}
+.ts-team-members a:hover{
+	text-decoration: none;
+}
+.ts-team-members .image-thumbnail{
+	margin-bottom: 10px;
+	position: relative;
+	overflow: hidden;
+}
+.ts-team-members.has-effect-img .image-thumbnail a:after{
+    transition: opacity .5s ease;
+    opacity: 0;
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background: rgba(0,0,0,0.3);
+}
+.ts-team-members.has-effect-img .image-thumbnail:hover a:after{
+    opacity: 1;
+    transition-duration: .8s;
+}
+.ts-team-members .image-thumbnail img{
+	transition: transform .4s cubic-bezier(0.71, 0.05, 0.29, 0.9);
+	transform: scale(1) translate(0, 0);
+	width: auto;
+}
+.ts-team-members.has-effect-img .image-thumbnail:hover img{
+	transform: scale(1.2) translate(2%, 3%);
+}
+.ts-team-members .name{
+	font-size: var(--loobek-main-font-size);
+}
+.ts-team-members .name a:hover{
+	color: var(--loobek-primary-color);
+}
+.ts-team-members .team-info{
+	line-height: 20px;
+}
+.entry-author .author-info .role{
+	color: var(--loobek-text-bold-color);
+}
+.ts-team-members .team-info > *{
+	margin-bottom: 6px;
+}
+.ts-team-members .team-info > *:last-child{
+	margin-bottom: 0;
+}
+.team-info .name{
+	font-family: var(--loobek-button-font);
+	font-weight: var(--loobek-button-font-weight);
+}
+.ts-team-members .member-social{
+	display: inline-flex;
+	flex-wrap: wrap;
+	font-size: 16px;
+	gap: 5px 10px;
+}
+.ts-team-members .member-social a{
+	text-align: center;
+	letter-spacing: 0;
+	line-height: 24px !important;
+	display: inline-block;
+	overflow: hidden;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+}
+.ts-team-members .member-social a:hover{
+	color: var(--loobek-primary-color);
+}
+.ts-team-members .member-social a.facebook:hover{
+	color: #3b5998;
+}
+.ts-team-members .member-social a.twitter:hover{
+	color: #2caae1;
+}
+.ts-team-members .member-social a.linked:hover{
+	color: #0073b1;
+}
+.ts-team-members .member-social a.rss:hover{
+	color: #ee802f;
+}
+.ts-team-members .member-social a.dribbble:hover{
+	color: #ea4c89;
+}
+.ts-team-members .member-social a.pinterest:hover{
+	color: #cb2027;
+}
+.ts-team-members .member-social a.instagram:hover{
+	color: #d32558;
+    color: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    color: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+.ts-team-members .member-role{
+	font-size: var(--loobek-main-small-2-font-size);
+	color: var(--loobek-text-light-color);
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*- 8. SHORTCODE COUNTDOWN -------------------------------------------------------------------------------------*/
+.ts-countdown{
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.ts-countdown:not(.style-inline) .counter-wrapper{
+	display: flex;
+	justify-content: center;
+	margin: 0 -20px;
+}
+.ts-countdown:not(.style-inline) .counter-wrapper > div{
+	min-width: 60px;
+	width: auto;
+	margin: 0 20px;
+}
+.ts-countdown:not(.style-inline).ref-wrapper{
+	text-transform: uppercase;
+}
+.ts-countdown:not(.style-inline) .number-wrapper{
+	margin-bottom: 0;
+}
+.ts-countdown.text-light .counter-wrapper .number,
+.ts-countdown.text-light .counter-wrapper .ref-wrapper,
+.ts-countdown.text-light .counter-wrapper{
+	color: #ffffff;
+}
+.thumbnail-wrapper .product-counter{
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 10px;
+	left: 10px;/* rtl */
+	right: auto;
+	margin: 0;
+	z-index: 5;
+	line-height: 34px;
+	margin: 0;
+	align-items: center;
+}
+.thumbnail-wrapper .product-counter .ts-countdown{
+	line-height: 34px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*- 9. SHORTCODE TYPE TAB PRODUCTS -----------------------------------------------------------------------------*/
+.ts-product .column-tabs{
+	display: flex;
+	width: 100%;
+	margin-bottom: 25px;
+	align-items: center;
+	justify-content: space-between;
+}
+.ts-product.title-center .column-tabs{
+	display: block;
+}
+.ts-product.title-center .column-tabs > *{
+	display: block;
+	text-align: center;
+}
+.ts-product.title-center .list-categories{
+	margin-top: 15px;
+}
+.ts-product.title-center .column-tabs ul.tabs{
+	justify-content: center;
+}
+.heading-tab h2{
+	margin-bottom: 0;
+}
+.column-tabs ul.tabs{
+	text-align: end;
+	padding: 0;
+    white-space: nowrap;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px 40px;
+}
+.column-tabs ul.tabs li{
+	transition: all 350ms ease 0s;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	padding: 0;
+	font-family: var(--loobek-heading-font);
+	font-weight: var(--loobek-heading-font-weight);
+	letter-spacing: var(--loobek-heading-letter-spacing);
+	font-size: var(--loobek-heading-font-size);
+	line-height: var(--loobek-heading-line-height);
+	letter-spacing: var(--loobek-h3-letter-spacing);
+	color: var(--loobek-text-light-color);
+}
+.column-tabs ul.tabs li.current{
+	cursor: default;
+}
+.column-tabs ul.tabs li.current,
+.column-tabs ul.tabs li:hover{
+	color: var(--loobek-text-bold-color);
+}
+.column-tabs ul.tabs li:before{
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	border-width: 1px 0 0 0;
+	border-style: solid;
+	content: "";
+	bottom: 0;
+	transition: all 350ms ease 0s;
+	border-color: var(--loobek-text-bold-color);
+}
+.column-tabs ul.tabs li.current:before{
+	left: 0;
+	right: 0;
+}
+.column-content > .list-categories ul{
+	margin: 0;
+}
+.column-content > .list-categories{
+	width: 218px;
+	border-width: 1px;
+	border-style: solid;
+	padding: 20px;
+	margin-left: -1px;/* rtl */
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*- 10. SHORTCODE SUBSCRIPTION ---------------------------------------------------------------------------------*/
+.ts-mailchimp-subscription-shortcode.layout-simple .subscribe-widget{
+	margin-left: 0;
+	margin-right: 0;
+}
+.ts-mailchimp-subscription-shortcode .widget-title-wrapper .widget-title{
+	margin-bottom: 15px;
+}
+.ts-mailchimp-subscription-shortcode .mailchimp-subscription .subscribe-email > *{
+	margin: 0 5px;
+}
+.ts-mailchimp-subscription-shortcode .widget-container .widget-title-wrapper,
+.ts-mailchimp-subscription-shortcode .subscribe-widget > form{
+	display: inline-block;
+	width: 100%;
+}
+.ts-mailchimp-subscription-shortcode:not(.layout-simple) .mailchimp-subscription .subscribe-email{
+	margin-left: -5px;
+	margin-right: -5px;
+}
+.ts-mailchimp-subscription-shortcode .subscribe-widget{
+	padding: 0 !important;
+}
+.elementor-col-100 .ts-mailchimp-subscription-shortcode .widget-title-wrapper + .subscribe-widget,
+div[data-col='100'] .ts-mailchimp-subscription-shortcode .widget-title-wrapper + .subscribe-widget{
+	margin: 30px 0 0 0;
+}
+.ts-mailchimp-subscription-shortcode .subscribe-widget > form{
+	max-width: 520px;
+}
+.ts-mailchimp-subscription-shortcode.layout-vertical .mailchimp-subscription{
+	display: flex;
+	align-items: center;
+}
+.ts-mailchimp-subscription-shortcode.layout-vertical .subscribe-widget{
+	margin-top: 0 !important;
+}
+.ts-mailchimp-subscription-shortcode.layout-vertical .widget-title-wrapper{
+	width: auto;
+	margin-right: 70px;/* rtl */
+}
+.ts-mailchimp-subscription-shortcode.layout-simple .subscribe-email{
+	display: block;
+}
+.ts-mailchimp-subscription-shortcode.layout-simple .subscribe-email > *{
+	margin: 0;
+}
+.ts-mailchimp-subscription-shortcode.layout-simple .subscribe-email .button{
+	margin-top: 10px;
+}
+.ts-mailchimp-subscription-shortcode .subscribe-email > *{
+	margin-top: 10px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*- 11. SHORTCODE LIST CATEGORIES ------------------------------------------------------------------------------*/
+.ts-list-of-product-categories-wrapper .heading-title,
+.ts-list-of-product-tags-wrapper .heading-title{
+	margin-bottom: 22px;
+	font-family: var(--loobek-button-font);
+	font-weight: var(--loobek-button-font-weight);
+	font-size: var(--loobek-main-font-bold-size);
+	line-height: var(--loobek-main-font-bold-line-height);
+}
+.ts-list-of-product-categories-wrapper li a,
+.ts-list-of-product-tags-wrapper li a{
+	color: var(--loobek-text-bold-color);
+}
+.ts-list-of-product-categories-wrapper li a:hover,
+.ts-list-of-product-tags-wrapper li a:hover{
+	color: var(--loobek-primary-color);
+}
+.ts-list-of-product-categories-wrapper.style-horizontal .heading-title{
+	margin-bottom: 25px;
+}
+.ts-list-of-product-categories-wrapper.style-horizontal.title-style-inline .heading-title{
+	margin: 0 10px 0 0;/* rtl */
+}
+.ts-list-of-product-categories-wrapper .list-categories,
+.ts-list-of-product-categories-wrapper .list-tags{
+	overflow: hidden;
+}
+.ts-list-of-product-categories-wrapper.title-style-inline .list-categories{
+	display: flex;
+	align-items: baseline;
+}
+.ts-list-of-product-categories-wrapper.style-horizontal ul{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ts-list-of-product-categories-wrapper.style-horizontal.title-style-inline ul{
+	margin: 0;
+}
+.ts-list-of-product-categories-wrapper.style-horizontal ul li{
+	text-align: center;
+	width: auto;
+}
+.ts-list-of-product-categories-wrapper.style-horizontal ul li a{
+	line-height: 44px;
+	border-width: 1px;
+	border-style: solid;
+	padding: 0 40px;
+	display: block;
+	font-family: var(--loobek-button-font);
+	font-weight: var(--loobek-button-font-weight);
+}
+body.image-button-radius .ts-list-of-product-categories-wrapper.style-horizontal ul li a{
+	border-radius: 10px;
+}
+.ts-list-of-product-categories-wrapper.style-horizontal.title-style-inline ul li a{
+	line-height: 32px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: var(--loobek-main-small-font-size);
+}
+.ts-list-of-product-categories-wrapper ul,
+.ts-list-of-product-tags-wrapper ul{
+	margin: 0;
+	max-width: 100%;
+	list-style: none;
+	column-fill: balance;
+	overflow: hidden;
+	column-gap: 20px;
+}
+.ts-list-of-product-categories-wrapper.style-vertical ul,
+.ts-list-of-product-tags-wrapper ul{
+	display: grid;
+}
+.ts-list-of-product-categories-wrapper .list-categories li,
+.ts-list-of-product-tags-wrapper .list-tags li{
+	padding: 0;
+}
+.ts-list-of-product-categories-wrapper .list-categories li,
+.ts-list-of-product-tags-wrapper .list-tags li{
+	list-style: none;
+}
+.ts-list-of-product-categories-wrapper .list-categories li > a{
+	display: flex;
+	align-items: center;
+}
+.ts-list-of-product-categories-wrapper .list-categories li img{
+	max-width: 20px;
+	margin-right: 10px;/* rtl */
+}
+footer .ts-list-of-product-categories-wrapper .heading-title{
+	font-size: var(--loobek-h6-font-size);
+	line-height: var(--loobek-h6-line-height);
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*- 12. SHORTCODE PRODUCT CATEGORIES ---------------------------------------------------------------------------*/
+body.image-button-radius .ts-product-category-wrapper .product .product-wrapper{
+	border-radius: 10px;
+}
+.ts-product-category-wrapper.title-float > header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.ts-product .product-wrapper > a{
+	display: block;
+}
+#page .ts-shortcode header .button-text,
+#group-icon-header .ts-shortcode header .button-text{
+	margin-top: 10px;
+	display: inline-block;
+}
+.ts-product-category-wrapper.thumbnail-radius .product-wrapper > a{
+	border-radius: 100% !important;
+}
+.ts-product-category-wrapper .products .product.product-category{
+	position: relative;
+	z-index: 4;
+	text-align: center;
+}
+#page .ts-shortcode .product .category-name .count,
+#group-icon-header .ts-shortcode .product .category-name .count{
+	line-height: 20px;
+	margin-top: 5px;
+	font-size: var(--loobek-main-small-font-size);
+}
+.woocommerce .product-category .product-wrapper .meta-wrapper,
+.ts-product-brand-wrapper .item .meta-wrapper{
+	padding: 16px 0 0 0;
+}
+.woocommerce.style-horizontal .product-category .product-wrapper .meta-wrapper{
+	padding-top: 0;
+}
+.ts-product-brand-wrapper .item .meta-wrapper{
+	text-align: center;
+}
+.ts-shortcode .product .category-name h3,
+.ts-product-brand-wrapper .item .meta-wrapper h3{
+	line-height: 20px;
+}
+#page .ts-product-category-wrapper .products,
+#group-icon-header .ts-product-category-wrapper .products{
+	margin-left: -5px;
+	margin-right: -5px;
+	margin-bottom: -10px;
+	padding-bottom: 0;
+	gap: 0;
+}
+#page .ts-product-category-wrapper .product-group,
+#group-icon-header .ts-product-category-wrapper .product-group{
+	gap: 0;
+}
+#page .ts-product-category-wrapper .product,
+#group-icon-header .ts-product-category-wrapper .product{
+	margin-bottom: 10px;
+	padding: 0 5px;
+}
+.ts-product-category-wrapper.style-horizontal .product .product-wrapper{
+	display: flex;
+	align-items: center;
+}
+.ts-product-category-wrapper.style-horizontal .product .product-wrapper > a{
+	margin-right: 20px;/* rtl */
+	margin-left: 0;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*- 13. SHORTCODE COUPON ---------------------------------------------------------------------------------------*/
+.ts-coupon-wrapper .coupon-code,
+.ts-coupon-wrapper .item .discount-caption{
+	color: var(--loobek-text-bold-color);
+	font-family: var(--loobek-button-font);
+	font-weight: var(--loobek-button-font-weight);
+}
+.ts-coupon-wrapper .coupon-code{
+	font-size: var(--loobek-button-font-size);
+}
+.ts-coupon-wrapper .coupon-code:before{
+	border-color: var(--loobek-text-bold-color);
+}
+.ts-coupon-wrapper,
+.ts-coupon-wrapper .discounts{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.ts-coupon-wrapper{
+	margin: 0 -15px -15px 0;/* rtl */
+}
+.ts-coupon-wrapper > *{
+	margin: 0 15px 15px 0;/* rtl */
+}
+.ts-coupon-wrapper .item{
+	margin: 0 0 -15px -15px;/* rtl */
+}
+.ts-coupon-wrapper.item-vertical,
+.coupon-wrapper{
+	justify-content: space-between;
+}
+.ts-coupon-wrapper .item{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	position: relative;
+}
+.ts-coupon-wrapper .item:before{
+	position: absolute;
+	left: auto;
+	right: 0;/* rtl */
+	top: 0;
+	bottom: 10px;
+	border-width: 0 1px 0 0;
+	border-style: solid;
+	content: "";
+}
+.ts-coupon-wrapper .item:last-child:before{
+	display: none;
+}
+.ts-coupon-wrapper .discount-caption{
+	display: block;
+}
+.ts-coupon-wrapper.item-vertical .discount-number{
+	font-size: var(--loobek-h1-font-size);
+	line-height: var(--loobek-h1-line-height);
+}
+.ts-coupon-wrapper.number-style-outline .discount-number{
+    stroke-width: 1px;
+	-webkit-text-stroke-width: 1px;
+	stroke: var(--loobek-text-bold-color);
+    -webkit-text-stroke-color: var(--loobek-text-bold-color);
+	color: transparent !important;
+}
+.ts-coupon-wrapper .item > *{
+	margin-left: 15px;/* rtl */
+	margin-bottom: 15px;
+}
+.coupon-code.loading .copy-message{
+	opacity: 1;
+	visibility: visible;
+	transition: 150ms ease 0s;
+}
+.coupon-code.loading > span:first-child{
+	opacity: 0;
+	visibility: hidden;
+}
+.coupon-code .copy-message{
+	position: absolute;
+	padding-right: 44px;/* rtl */
+	left: 0;
+	right: 0;
+	top: 0;
+	content: "";
+	width: 100%;
+	text-align: center;
+	opacity: 0;
+	visibility: hidden;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*- 14. SHORTCODE SOCIAL ---------------------------------------------------------------------------------------*/
+.ts-social-icons-elementor-widget .shortcode-heading-wrapper{
+	margin: 0 0 18px 0;
+	text-align: start;
+}
+.ts-social-icons-elementor-widget{
+	overflow: hidden;
+}
+.ts-social-icons-elementor-widget .list-items{
+	margin: -20px -20px 0 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.ts-social-icons-elementor-widget .list-items > span{
+	margin: 20px 20px 0 0;
+	display: block;
+}
+.ts-social-icons-elementor-widget.style-vertical .list-items > span{
+	width: 100%;
+}
+.ts-social-icons-elementor-widget .elementor-icon.elementor-social-icon{
+	width: auto;
+	height: auto;
+	line-height: 30px;
+	display: flex;
+	float: left;/* rtl */
+	justify-content: center;
+	align-items: center;
+	background: transparent;
+	text-align: center;
+	border-width: 1px;
+	border-style: solid;
+	border-color: transparent;
+}
+body.image-button-radius .ts-social-icons-elementor-widget .elementor-icon.elementor-social-icon{
+	border-radius: 10px;
+}
+.elementor-icon.elementor-social-icon span{
+	line-height: 20px;
+}
+.elementor-icon.elementor-social-icon i{
+	font-size: 20px;
+}
+.elementor-icon.elementor-social-icon *{
+	transition: inherit;
+}
+.ts-social-icons-elementor-widget .elementor-social-icon:hover{
+	opacity: 1;
+}
+.ts-social-icons-elementor-widget .elementor-social-icon i:before{
+	position: static;
+}
+.ts-social-icons-elementor-widget .social-name{
+	margin-left: 10px;/* rtl */
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*- 15. SHORTCODE VIDEO ----------------------------------------------------------------------------------------*/
+.ts-videos-elementor-widget{
+	overflow: hidden;
+}
+.ts-videos-elementor-widget.ts-shortcode .items{
+	flex-wrap: nowrap;
+}
+.ts-videos-elementor-widget .items .item{
+	width: 100%;
+}
+.ts-videos-elementor-widget .items .item > div{
+	position: relative;
+}
+.ts-videos-elementor-widget .elementor-custom-embed-image-overlay{
+	cursor: pointer;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width:100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.elementor-custom-embed-image-overlay .elementor-custom-embed-play i, 
+.elementor-custom-embed-play svg{
+	transition: 300ms ease 0s;
+	opacity: 0.6;
+}
+.elementor-custom-embed-image-overlay:hover .elementor-custom-embed-play i, 
+.elementor-custom-embed-play:hover svg{
+	opacity: 1;
+}
+body .elementor-slideshow__header{
+	padding-right: 48px;
+	padding-left: 30px;/* rtl */
+}
+body .elementor-lightbox .dialog-lightbox-close-button{
+	text-decoration: none;
+	z-index: 11;
+	margin-top: 18px;
+}
+.elementor-lightbox .eicon-close{
+	font-family: 'icomoon';
+	font-weight: normal;
+	font-size: 14px;
+}
+.elementor-lightbox .eicon-close:before{
+	content: "\e906";
+}
+body .elementor-lightbox .elementor-video-container .elementor-video-landscape video{
+	width: auto;
+	max-width: 100%;
+}
+.ts-videos-elementor-widget embed, 
+.ts-videos-elementor-widget iframe, 
+.ts-videos-elementor-widget object, 
+.ts-videos-elementor-widget video{
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    height: 100%;
+    margin: 0;
+    line-height: 1;
+    border: none;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.ts-videos-elementor-widget .elementor-wrapper{
+    aspect-ratio: var(--video-aspect-ratio)
+}
+@supports not (aspect-ratio: 1/1) {
+    .ts-videos-elementor-widget .elementor-wrapper{
+        position:relative;
+        overflow: hidden;
+        height: 0;
+        padding-bottom: calc(100% / var(--video-aspect-ratio))
+    }
+
+    .ts-videos-elementor-widget .elementor-wrapper iframe,
+	.ts-videos-elementor-widget .elementor-wrapper video{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0
+    }
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*- 16. SHORTCODE COUPON 2 -------------------------------------------------------------------------------------*/
+.ts-coupon-shortcode{
+	display: flex;
+	align-items: center;
+	margin: 0 -13px;
+	justify-content: center;
+	padding: 12px 0;
+	font-size: var(--loobek-h5-font-size);
+	line-height: var(--loobek-h5-line-height);
+}
+.ts-coupon-shortcode > *{
+	margin: 0 13px;
+}
+.ts-coupon-shortcode > .caption{
+	font-size: var(--loobek-main-font-size);
+	line-height: 1em;
+}
+body .ts-coupon-shortcode .coupon-code{
+	line-height: 46px;
+	font-size: var(--loobek-button-font-size);
+}
+.ts-coupon-shortcode .number{
+	font-size: var(--loobek-h2-font-size);
+	line-height: 1em;
+	color: var(--loobek-primary-color);
+	font-family: var(--loobek-main-font-extra-bold);
+	font-weight: var(--loobek-main-font-extra-bold-weight);
+}
