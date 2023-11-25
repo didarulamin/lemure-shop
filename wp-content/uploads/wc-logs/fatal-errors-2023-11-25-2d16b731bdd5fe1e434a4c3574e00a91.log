@@ -1,0 +1,126 @@
+2023-11-25T13:37:50+00:00 CRITICAL Uncaught Error: Call to undefined function add_dilter() in C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(582) : eval()'d code:1
+Stack trace:
+#0 C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(582): eval()
+#1 C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(470): Code_Snippets\execute_snippet('add_dilter('woo...', 0, true)
+#2 C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(510): Code_Snippets\test_snippet_code(Object(Code_Snippets\Snippet))
+#3 C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\rest-api\class-snippets-rest-controller.php(239): Code_Snippets\save_snippet(Object(Code_Snippets\Snippet))
+#4 C:\laragon\www\lemurecomsmetic\wp-includes\rest-api\class-wp-rest-server.php(1193): Code_Snippets\REST_API\Snippets_REST_Controller->create_item(Object(WP_REST_Request))
+#5 C:\laragon\www\lemurecomsmetic\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/code-snippets/...', Array, NULL)
+#6 C:\laragon\www\lemurecomsmetic\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#7 C:\laragon\www\lemurecomsmetic\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/code-snippets/...')
+#8 C:\laragon\www\lemurecomsmetic\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#9 C:\laragon\www\lemurecomsmetic\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 C:\laragon\www\lemurecomsmetic\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#11 C:\laragon\www\lemurecomsmetic\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#12 C:\laragon\www\lemurecomsmetic\wp-includes\class-wp.php(813): WP->parse_request('')
+#13 C:\laragon\www\lemurecomsmetic\wp-includes\functions.php(1336): WP->main('')
+#14 C:\laragon\www\lemurecomsmetic\wp-blog-header.php(16): wp()
+#15 C:\laragon\www\lemurecomsmetic\index.php(17): require('C:\\laragon\\www\\...')
+#16 {main}
+  thrown in C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(582) : eval()'d code on line 1
+
+2023-11-25T13:40:41+00:00 CRITICAL Uncaught Error: Call to undefined function add_dilter() in C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(582) : eval()'d code:1
+Stack trace:
+#0 C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(582): eval()
+#1 C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(470): Code_Snippets\execute_snippet('add_dilter('woo...', 0, true)
+#2 C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(510): Code_Snippets\test_snippet_code(Object(Code_Snippets\Snippet))
+#3 C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\rest-api\class-snippets-rest-controller.php(239): Code_Snippets\save_snippet(Object(Code_Snippets\Snippet))
+#4 C:\laragon\www\lemurecomsmetic\wp-includes\rest-api\class-wp-rest-server.php(1193): Code_Snippets\REST_API\Snippets_REST_Controller->create_item(Object(WP_REST_Request))
+#5 C:\laragon\www\lemurecomsmetic\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/code-snippets/...', Array, NULL)
+#6 C:\laragon\www\lemurecomsmetic\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#7 C:\laragon\www\lemurecomsmetic\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/code-snippets/...')
+#8 C:\laragon\www\lemurecomsmetic\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#9 C:\laragon\www\lemurecomsmetic\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 C:\laragon\www\lemurecomsmetic\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#11 C:\laragon\www\lemurecomsmetic\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#12 C:\laragon\www\lemurecomsmetic\wp-includes\class-wp.php(813): WP->parse_request('')
+#13 C:\laragon\www\lemurecomsmetic\wp-includes\functions.php(1336): WP->main('')
+#14 C:\laragon\www\lemurecomsmetic\wp-blog-header.php(16): wp()
+#15 C:\laragon\www\lemurecomsmetic\index.php(17): require('C:\\laragon\\www\\...')
+#16 {main}
+  thrown in C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(582) : eval()'d code on line 1
+
+2023-11-25T13:41:06+00:00 CRITICAL Uncaught Error: Call to undefined function add_dilter() in C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(582) : eval()'d code:1
+Stack trace:
+#0 C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(582): eval()
+#1 C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(470): Code_Snippets\execute_snippet('add_dilter('woo...', 0, true)
+#2 C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(510): Code_Snippets\test_snippet_code(Object(Code_Snippets\Snippet))
+#3 C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\rest-api\class-snippets-rest-controller.php(239): Code_Snippets\save_snippet(Object(Code_Snippets\Snippet))
+#4 C:\laragon\www\lemurecomsmetic\wp-includes\rest-api\class-wp-rest-server.php(1193): Code_Snippets\REST_API\Snippets_REST_Controller->create_item(Object(WP_REST_Request))
+#5 C:\laragon\www\lemurecomsmetic\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/code-snippets/...', Array, NULL)
+#6 C:\laragon\www\lemurecomsmetic\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#7 C:\laragon\www\lemurecomsmetic\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/code-snippets/...')
+#8 C:\laragon\www\lemurecomsmetic\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#9 C:\laragon\www\lemurecomsmetic\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 C:\laragon\www\lemurecomsmetic\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#11 C:\laragon\www\lemurecomsmetic\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#12 C:\laragon\www\lemurecomsmetic\wp-includes\class-wp.php(813): WP->parse_request('')
+#13 C:\laragon\www\lemurecomsmetic\wp-includes\functions.php(1336): WP->main('')
+#14 C:\laragon\www\lemurecomsmetic\wp-blog-header.php(16): wp()
+#15 C:\laragon\www\lemurecomsmetic\index.php(17): require('C:\\laragon\\www\\...')
+#16 {main}
+  thrown in C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(582) : eval()'d code on line 1
+
+2023-11-25T13:41:46+00:00 CRITICAL Uncaught Error: Call to undefined function add_dilter() in C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(582) : eval()'d code:1
+Stack trace:
+#0 C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(582): eval()
+#1 C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(470): Code_Snippets\execute_snippet('add_dilter('woo...', 0, true)
+#2 C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(510): Code_Snippets\test_snippet_code(Object(Code_Snippets\Snippet))
+#3 C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\rest-api\class-snippets-rest-controller.php(239): Code_Snippets\save_snippet(Object(Code_Snippets\Snippet))
+#4 C:\laragon\www\lemurecomsmetic\wp-includes\rest-api\class-wp-rest-server.php(1193): Code_Snippets\REST_API\Snippets_REST_Controller->create_item(Object(WP_REST_Request))
+#5 C:\laragon\www\lemurecomsmetic\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/code-snippets/...', Array, NULL)
+#6 C:\laragon\www\lemurecomsmetic\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#7 C:\laragon\www\lemurecomsmetic\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/code-snippets/...')
+#8 C:\laragon\www\lemurecomsmetic\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#9 C:\laragon\www\lemurecomsmetic\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 C:\laragon\www\lemurecomsmetic\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#11 C:\laragon\www\lemurecomsmetic\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#12 C:\laragon\www\lemurecomsmetic\wp-includes\class-wp.php(813): WP->parse_request('')
+#13 C:\laragon\www\lemurecomsmetic\wp-includes\functions.php(1336): WP->main('')
+#14 C:\laragon\www\lemurecomsmetic\wp-blog-header.php(16): wp()
+#15 C:\laragon\www\lemurecomsmetic\index.php(17): require('C:\\laragon\\www\\...')
+#16 {main}
+  thrown in C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(582) : eval()'d code on line 1
+
+2023-11-25T13:42:15+00:00 CRITICAL Uncaught Error: Call to undefined function add_dilter() in C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(582) : eval()'d code:1
+Stack trace:
+#0 C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(582): eval()
+#1 C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(470): Code_Snippets\execute_snippet('add_dilter('woo...', 0, true)
+#2 C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(510): Code_Snippets\test_snippet_code(Object(Code_Snippets\Snippet))
+#3 C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\rest-api\class-snippets-rest-controller.php(239): Code_Snippets\save_snippet(Object(Code_Snippets\Snippet))
+#4 C:\laragon\www\lemurecomsmetic\wp-includes\rest-api\class-wp-rest-server.php(1193): Code_Snippets\REST_API\Snippets_REST_Controller->create_item(Object(WP_REST_Request))
+#5 C:\laragon\www\lemurecomsmetic\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/code-snippets/...', Array, NULL)
+#6 C:\laragon\www\lemurecomsmetic\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#7 C:\laragon\www\lemurecomsmetic\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/code-snippets/...')
+#8 C:\laragon\www\lemurecomsmetic\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#9 C:\laragon\www\lemurecomsmetic\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 C:\laragon\www\lemurecomsmetic\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#11 C:\laragon\www\lemurecomsmetic\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#12 C:\laragon\www\lemurecomsmetic\wp-includes\class-wp.php(813): WP->parse_request('')
+#13 C:\laragon\www\lemurecomsmetic\wp-includes\functions.php(1336): WP->main('')
+#14 C:\laragon\www\lemurecomsmetic\wp-blog-header.php(16): wp()
+#15 C:\laragon\www\lemurecomsmetic\index.php(17): require('C:\\laragon\\www\\...')
+#16 {main}
+  thrown in C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(582) : eval()'d code on line 1
+
+2023-11-25T13:44:11+00:00 CRITICAL Uncaught Error: Call to undefined function add_dilter() in C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(582) : eval()'d code:1
+Stack trace:
+#0 C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(582): eval()
+#1 C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(470): Code_Snippets\execute_snippet('add_dilter('woo...', 0, true)
+#2 C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(510): Code_Snippets\test_snippet_code(Object(Code_Snippets\Snippet))
+#3 C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\rest-api\class-snippets-rest-controller.php(239): Code_Snippets\save_snippet(Object(Code_Snippets\Snippet))
+#4 C:\laragon\www\lemurecomsmetic\wp-includes\rest-api\class-wp-rest-server.php(1193): Code_Snippets\REST_API\Snippets_REST_Controller->create_item(Object(WP_REST_Request))
+#5 C:\laragon\www\lemurecomsmetic\wp-includes\rest-api\class-wp-rest-server.php(1041): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/code-snippets/...', Array, NULL)
+#6 C:\laragon\www\lemurecomsmetic\wp-includes\rest-api\class-wp-rest-server.php(431): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#7 C:\laragon\www\lemurecomsmetic\wp-includes\rest-api.php(424): WP_REST_Server->serve_request('/code-snippets/...')
+#8 C:\laragon\www\lemurecomsmetic\wp-includes\class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#9 C:\laragon\www\lemurecomsmetic\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 C:\laragon\www\lemurecomsmetic\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#11 C:\laragon\www\lemurecomsmetic\wp-includes\class-wp.php(418): do_action_ref_array('parse_request', Array)
+#12 C:\laragon\www\lemurecomsmetic\wp-includes\class-wp.php(813): WP->parse_request('')
+#13 C:\laragon\www\lemurecomsmetic\wp-includes\functions.php(1336): WP->main('')
+#14 C:\laragon\www\lemurecomsmetic\wp-blog-header.php(16): wp()
+#15 C:\laragon\www\lemurecomsmetic\index.php(17): require('C:\\laragon\\www\\...')
+#16 {main}
+  thrown in C:\laragon\www\lemurecomsmetic\wp-content\plugins\code-snippets\php\snippet-ops.php(582) : eval()'d code on line 1
+

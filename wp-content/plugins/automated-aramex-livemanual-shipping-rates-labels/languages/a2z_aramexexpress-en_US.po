@@ -1,0 +1,519 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ARAMEX Rates & Labels\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-08 05:07+0000\n"
+"PO-Revision-Date: 2023-09-08 07:30+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.3.1\n"
+"X-Domain: a2z_aramexexpress"
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:948
+msgid " Your Website Currency is "
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1535 a2zaramexexpress_basic.php:1583
+msgid "Account"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:917
+msgid "Account Entity"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:924
+msgid "Account PIN"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1178
+msgid "Add Box"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1121
+#: controllors/views/a2z_aramexexpress_settings_view.php:1005
+msgid "Address Line 1"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1121
+msgid "Address Line 1 of the Shipper from Address."
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1129
+#: controllors/views/a2z_aramexexpress_settings_view.php:1009
+msgid "Address Line 2"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1129
+msgid "Address Line 2 of the Shipper from Address."
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1226
+msgid "Address translation any language to english."
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1294
+msgid "Alternate Name for Carrier"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:948
+msgid "and your ARAMEX currency is"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1069
+msgid "ARAMEX Account Entity"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1059
+#: controllors/views/a2z_aramexexpress_settings_view.php:912
+msgid "ARAMEX Account Number"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1079
+msgid "ARAMEX Account Pin"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:142
+msgid "ARAMEX Express"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1040 a2zaramexexpress_basic.php:1050
+#: a2zaramexexpress_basic.php:1059 a2zaramexexpress_basic.php:1069
+#: a2zaramexexpress_basic.php:1079
+#: controllors/views/a2z_aramexexpress_settings_view.php:901
+#: controllors/views/a2z_aramexexpress_settings_view.php:906
+#: controllors/views/a2z_aramexexpress_settings_view.php:914
+#: controllors/views/a2z_aramexexpress_settings_view.php:919
+#: controllors/views/a2z_aramexexpress_settings_view.php:926
+msgid "ARAMEX Integration Team will give this details to you."
+msgstr ""
+
+#: a2zaramexexpress_basic.php:178
+msgid "Aramex Labels"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:904
+msgid "ARAMEX Password"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1547
+msgid "ARAMEX pickup details"
+msgstr ""
+
+#. Name of the plugin
+msgid "ARAMEX Rates & Labels"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1422
+msgid "ARAMEX Shipping Label"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:899
+msgid "ARAMEX Username"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:929
+msgid "ARAMEX Weight Unit"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1050
+msgid "ARAMEX XML API Password"
+msgstr "Aramex Password"
+
+#: a2zaramexexpress_basic.php:1040
+msgid "ARAMEX XML API Site ID"
+msgstr "Aramex Username"
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:952
+msgid "Auto Currency Conversion "
+msgstr ""
+
+#: a2zaramexexpress_basic.php:136
+msgid "Automated Aramex Shipping"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1139
+msgid "Box Weight"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1291
+msgid "Carries"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1236
+msgid "Choose Payment country"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1137
+msgid "City"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1015
+msgid "City of the Shipper from address"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1137
+msgid "City of the Shipper from address."
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1097
+#: controllors/views/a2z_aramexexpress_settings_view.php:989
+msgid "Company Name"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1415
+msgid "Configure"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1105
+msgid "Contact Number"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1190
+msgid ""
+"Conversion Rate from Site Currency to ARAMEX Currency ( Ignore if auto "
+"conversion is Enabled )"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1190
+msgid "Conversion Rate from Site Currency to ARAMEX Currency."
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1161
+msgid "Country"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1029
+msgid "Country of the Shipper from Address"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1161
+msgid "Country of the Shipper from Address."
+msgstr ""
+
+#: a2zaramexexpress_basic.php:243
+msgid "Create Labels - HITShipo [ARAMEX]"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1578 a2zaramexexpress_basic.php:1595
+msgid "Create Shipment"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1532 a2zaramexexpress_basic.php:1566
+msgid "Default Account"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1198
+#: controllors/views/a2z_aramexexpress_settings_view.php:1439
+msgid "Default Domestic Service"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1198
+msgid "Default Domestic Shipping."
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1219
+#: controllors/views/a2z_aramexexpress_settings_view.php:1460
+msgid "Default International Service"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1219
+msgid "Default International Shipping."
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1260
+msgid "Do you wants to exclude countries?"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1113
+msgid "Email Address"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:999
+msgid "Email Address of the Shipper"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1113
+msgid "Email Address of the Shipper."
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1368
+msgid "Email address to sent Shipping label"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1527
+msgid "Email address to signup / check the registered email."
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1141
+msgid "Enabled"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:232
+msgid "Enter Commodity code"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:233
+msgid "Enter commodity code for product (20 charcters max)."
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:960
+msgid "Enter conversion rate."
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1513
+msgid "Enter Intergation Key"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:958
+msgid "Exchange Rate"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1264
+msgid "Exclude Countries"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1254
+msgid "Google's Cloud API Key"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1182
+#: controllors/views/a2z_aramexexpress_settings_view.php:1047
+msgid "GSTIN/VAT No"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1182
+msgid "GSTIN/VAT No."
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1138
+msgid "Height"
+msgstr ""
+
+#. Author of the plugin
+msgid "HITShipo"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:198
+msgid "HITShipo - ARAMEX Options"
+msgstr ""
+
+#: controllors/a2z_aramexexpress_init.php:1283
+msgid ""
+"HITSHIPO helps you to save time, reduce errors, and worry less when you "
+"automate your tedious, manual tasks. HITSHIPO + our plugin can generate "
+"shipping labels, Commercial invoice, display real time rates, track orders, "
+"audit shipments, and supports both domestic & international ARAMEX services."
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1544
+msgid "Hitshipo Intergation Key"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1502
+msgid ""
+"HITShipo performs all the operations in its own server. So it won't affect "
+"your page speed or server usage."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://hitshipo.com/"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1103
+msgid "Integration key Created from HIT Shipo"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1542 a2zaramexexpress_basic.php:1560
+msgid "Invoice"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1557
+msgid ""
+"It's great to have you here. Your account has been linked successfully with "
+"HITSHIPO."
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1041 a2zaramexexpress_basic.php:1051
+#: a2zaramexexpress_basic.php:1060 a2zaramexexpress_basic.php:1070
+#: a2zaramexexpress_basic.php:1080
+msgid "Leave this field as empty to use default account."
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1136
+msgid "Length"
+msgstr ""
+
+#: controllors/a2z_aramexexpress_init.php:1284
+#: controllors/views/a2z_aramexexpress_settings_view.php:1558
+msgid ""
+"Make your customers happier by reacting faster and handling their service "
+"requests in a timely manner, meaning higher store reviews and more revenue."
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1140
+msgid "Max Weight"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1135
+msgid "Name"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1412
+msgid "Package Location"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1142
+msgid "Package Type"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1210
+msgid "Payment Type"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1422
+msgid "Pickup close time"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1550
+msgid "Pickup creation failed"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1418
+msgid "Pickup open time"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1553
+msgid "Pickup request can only be created in automatic mode"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1153
+#: controllors/views/a2z_aramexexpress_settings_view.php:1025
+msgid "Postal/Zip Code"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1153
+msgid "Postal/Zip Code."
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1297
+msgid "Price adjustment"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1300
+msgid "Price adjustment (%)"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Realtime Shipping Rates, Shipping label, Pickup, commercial invoice "
+"automation included."
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1179
+msgid "Remove selected box(es)"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1614
+msgid "Reset Shipments"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1395
+msgid "Schedule pickup after how many days?"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1103
+msgid "Select Package Type"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1574 a2zaramexexpress_basic.php:1591
+#: controllors/views/a2z_aramexexpress_settings_view.php:1364
+msgid "Shipment Content"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1097
+msgid "Shipper Company Name."
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:995
+msgid "Shipper Mobile / Contact Number"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1105
+msgid "Shipper Mobile / Contact Number."
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1089
+#: controllors/views/a2z_aramexexpress_settings_view.php:985
+msgid "Shipper Name"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1540 a2zaramexexpress_basic.php:1558
+msgid "Shipping Label"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1089
+msgid "Shipping Person Name"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1556
+msgid "Site Linked Successfully."
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:948
+msgid "So you have to consider the converstion rate."
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1019
+msgid "State (Two digit ISO code accepted.)"
+msgstr "State (Two Letter String)"
+
+#: a2zaramexexpress_basic.php:1145
+msgid "State (Two Digit String)"
+msgstr "State (Two Letter String)"
+
+#: a2zaramexexpress_basic.php:1145
+msgid "State of the Shipper from address."
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1416
+msgid "Support"
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1199 a2zaramexexpress_basic.php:1220
+msgid "This will be used while shipping label generation."
+msgstr ""
+
+#: a2zaramexexpress_basic.php:1538
+msgid "Tracking No(s)"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1066
+msgid "Vendor role"
+msgstr ""
+
+#: controllors/a2z_aramexexpress_init.php:1282
+msgid ""
+"We have lot of features that will take your e-commerce store to another "
+"level."
+msgstr ""
+
+#: controllors/a2z_aramexexpress_init.php:1281
+msgid ""
+"Welcome to HITSHIPO! You are at just one-step ahead to configure the ARAMEX "
+"Express with HITSHIPO."
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1123
+msgid "What is the Maximum weight to one package?"
+msgstr ""
+
+#: controllors/views/a2z_aramexexpress_settings_view.php:1137
+msgid "Width"
+msgstr ""
